@@ -13,49 +13,49 @@ namespace DDAC_MaerkLine {
     public partial class AddShipment {
         
         /// <summary>
-        /// cusName control.
+        /// cusName1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox cusName;
+        protected global::System.Web.UI.WebControls.TextBox cusName1;
         
         /// <summary>
-        /// cusCompany control.
+        /// cusCompany1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox cusCompany;
+        protected global::System.Web.UI.WebControls.TextBox cusCompany1;
         
         /// <summary>
-        /// DepartLoc control.
+        /// DepartLoc1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox DepartLoc;
+        protected global::System.Web.UI.WebControls.TextBox DepartLoc1;
         
         /// <summary>
-        /// ArrivalLoc control.
+        /// ArrivalLoc1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox ArrivalLoc;
+        protected global::System.Web.UI.WebControls.TextBox ArrivalLoc1;
         
         /// <summary>
-        /// Date control.
+        /// Date1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Date;
+        protected global::System.Web.UI.WebControls.TextBox Date1;
         
         /// <summary>
         /// AddShip control.
@@ -74,5 +74,14 @@ namespace DDAC_MaerkLine {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button CancelShip;
+        
+        /// <summary>
+        /// SqlDataSource_InsertShipment control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource_InsertShipment;
     }
 }

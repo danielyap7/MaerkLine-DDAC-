@@ -16,7 +16,16 @@ namespace DDAC_MaerkLine
 
         protected void AddShip_Click(object sender, EventArgs e)
         {
+            if (cusName1.Text == "" || cusCompany1.Text == "" || DepartLoc1.Text == "" || ArrivalLoc1.Text == "" || Date1.Text == "")
+            {
+                ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alertMessage", "alert('Please fill in all fields.')", true);
 
+            }
+            else
+            {
+                SqlDataSource_InsertShipment.Insert();
+                Response.Write("<script language='javascript'>window.alert('Successfully Added.');window.location='Default.aspx';</script>");
+            }
         }
 
         protected void CancelShip_Click(object sender, EventArgs e)

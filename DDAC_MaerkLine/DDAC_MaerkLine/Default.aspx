@@ -14,18 +14,18 @@
             <h2>Add Shipment</h2>
             <p>
                 Add the Maersk Line Shipment
-            </p>
+            </p> <br />
             <p>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301948">Insert &raquo;</a>
+                <a class="btn btn-default" href="~/AddShipment" style="background-color:#A8A8A8">Insert &raquo;</a>
             </p>
         </div>
         <div class="col-md-4">
-            <h2>Get more libraries</h2>
+            <h2>Modify Shipment</h2>
             <p>
-                NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.
+                Edit or Delete on the Shipment Details.
             </p>
             <p>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301949">Learn more &raquo;</a>
+                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301949" style="background-color:#A8A8A8" >Modify &raquo;</a>
             </p>
         </div>
         <div class="col-md-4">
@@ -34,7 +34,7 @@
                 You can easily find a web hosting company that offers the right mix of features and price for your applications.
             </p>
             <p>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301950">Learn more &raquo;</a>
+                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301950" style="background-color:#A8A8A8" >Learn more &raquo;</a>
             </p>
         </div>
     </div>
