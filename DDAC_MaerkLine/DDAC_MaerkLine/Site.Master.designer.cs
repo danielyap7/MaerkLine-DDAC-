@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebFromsSSO {
+namespace DDAC_MaerkLine {
     
     
     public partial class SiteMaster {
-
+        
         /// <summary>
         /// A1 control.
         /// </summary>
@@ -20,7 +20,7 @@ namespace WebFromsSSO {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor A1;
-
+        
         /// <summary>
         /// A2 control.
         /// </summary>
@@ -29,7 +29,7 @@ namespace WebFromsSSO {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor A2;
-
+        
         /// <summary>
         /// A3 control.
         /// </summary>
@@ -38,7 +38,7 @@ namespace WebFromsSSO {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor A3;
-
+        
         /// <summary>
         /// A4 control.
         /// </summary>
@@ -47,9 +47,8 @@ namespace WebFromsSSO {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlAnchor A4;
-
+        
         /// <summary>
-
         /// MainContent control.
         /// </summary>
         /// <remarks>
