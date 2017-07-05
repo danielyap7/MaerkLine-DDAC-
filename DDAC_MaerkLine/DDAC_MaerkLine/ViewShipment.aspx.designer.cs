@@ -22,6 +22,15 @@ namespace DDAC_MaerkLine {
         protected global::System.Web.UI.WebControls.GridView GridView1;
         
         /// <summary>
+        /// BackView control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button BackView;
+        
+        /// <summary>
         /// SqlDataSource_ViewShipment control.
         /// </summary>
         /// <remarks>

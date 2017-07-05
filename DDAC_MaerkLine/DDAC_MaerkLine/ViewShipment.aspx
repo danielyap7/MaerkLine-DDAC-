@@ -2,8 +2,8 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <div class="jumbotron">
-        <h2>Modification Shipment</h2>
-        <p class="lead">Modify Scheduling Section</p>
+        <h2>View details of Shipment</h2>
+        <p class="lead">Show Scheduling Section</p>
     </div>
 
     <div style="background-color:aliceblue; padding:10px">
@@ -27,7 +27,8 @@
             <SortedAscendingHeaderStyle BackColor="#808080" />
             <SortedDescendingCellStyle BackColor="#CAC9C9" />
             <SortedDescendingHeaderStyle BackColor="#383838" />
-        </asp:GridView>
+        </asp:GridView> <br />
+        <asp:Button ID="BackView" runat="server" Text="Back" OnClick="BackView_Click" />
     </div>
     <asp:SqlDataSource ID="SqlDataSource_ViewShipment" runat="server" ConnectionString="<%$ ConnectionStrings:DDACMaerkLine20170705045729_dbConnectionString %>" DeleteCommand="DELETE FROM [Shipment] WHERE [Id] = @Id" InsertCommand="INSERT INTO [Shipment] ([CusName], [CusCompany], [DepartLoc], [ArrivalLoc], [Date]) VALUES (@CusName, @CusCompany, @DepartLoc, @ArrivalLoc, @Date)" SelectCommand="SELECT * FROM [Shipment]" UpdateCommand="UPDATE [Shipment] SET [CusName] = @CusName, [CusCompany] = @CusCompany, [DepartLoc] = @DepartLoc, [ArrivalLoc] = @ArrivalLoc, [Date] = @Date WHERE [Id] = @Id">
         <DeleteParameters>
