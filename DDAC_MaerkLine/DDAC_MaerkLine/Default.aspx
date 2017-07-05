@@ -10,31 +10,31 @@
     </div>
 
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4" id="addDiv">
             <h2>Add Shipment</h2>
             <p>
                 Add the Maersk Line Shipment
             </p> <br />
             <p>
-                <a class="btn btn-default" href="AddShipment.aspx" style="background-color:#A8A8A8">Insert &raquo;</a>
+                <a class="btn btn-default" href="AddShipment.aspx" style="background-color:#A8A8A8">Insert Shipment&raquo;</a>
             </p>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4" id="modifyDiv">
             <h2>Modify Shipment</h2>
             <p>
-                Edit or Delete on the Shipment Details.
+                Edit or Delete on the Shipment Details. [Admin]
             </p> <br />
             <p>
-                <a class="btn btn-default" href="ModifyShipment.aspx" style="background-color:#A8A8A8" >Modify &raquo;</a>
+                <a class="btn btn-default" href="ModifyShipment.aspx" style="background-color:#A8A8A8" >Modify Shipment&raquo;</a>
             </p>
         </div>
-        <div class="col-md-4">
-            <h2>Web Hosting</h2>
+        <div class="col-md-4" id="viewDiv">
+            <h2>View Shipment</h2>
             <p>
-                You can easily find a web hosting company that offers the right mix of features and price for your applications.
-            </p>
+                User can easily View the shipment from the Maersk Line.
+            </p> <br />
             <p>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301950" style="background-color:#A8A8A8" >Learn more &raquo;</a>
+                <a class="btn btn-default" href="ViewShipment.aspx" style="background-color:#A8A8A8" >View Shipment &raquo;</a>
             </p>
         </div>
     </div>
