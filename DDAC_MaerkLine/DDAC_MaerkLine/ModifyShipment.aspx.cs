@@ -13,5 +13,10 @@ namespace DDAC_MaerkLine
         {
 
         }
+
+        protected void BackEdit_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Default.aspx");
+        }
     }
 }

@@ -16,16 +16,16 @@
                 Add the Maersk Line Shipment
             </p> <br />
             <p>
-                <a class="btn btn-default" href="~/AddShipment" style="background-color:#A8A8A8">Insert &raquo;</a>
+                <a class="btn btn-default" href="AddShipment.aspx" style="background-color:#A8A8A8">Insert &raquo;</a>
             </p>
         </div>
         <div class="col-md-4">
             <h2>Modify Shipment</h2>
             <p>
                 Edit or Delete on the Shipment Details.
-            </p>
+            </p> <br />
             <p>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301949" style="background-color:#A8A8A8" >Modify &raquo;</a>
+                <a class="btn btn-default" href="ModifyShipment.aspx" style="background-color:#A8A8A8" >Modify &raquo;</a>
             </p>
         </div>
         <div class="col-md-4">

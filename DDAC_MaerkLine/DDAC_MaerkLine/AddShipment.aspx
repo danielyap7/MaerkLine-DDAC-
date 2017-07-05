@@ -1,14 +1,8 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="AddShipment.aspx.cs" Inherits="DDAC_MaerkLine.AddShipment" %>
+﻿<%@ Page Title="Maersk Line - Insert Shipment" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="AddShipment.aspx.cs" Inherits="DDAC_MaerkLine.AddShipment" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <style>
-        button {
-            margin: 10px;
 
-        }
-    </style>
-
-    <div>
+    <div class="jumbotron">
         <h2>Insert Shipment</h2>
         <p class="lead">Scheduling Section</p>
     </div>
