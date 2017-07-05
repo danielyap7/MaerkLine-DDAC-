@@ -13,5 +13,15 @@ namespace DDAC_MaerkLine
         {
 
         }
+
+        protected void AddShip_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void CancelShip_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Default.aspx");
+        }
     }
 }
